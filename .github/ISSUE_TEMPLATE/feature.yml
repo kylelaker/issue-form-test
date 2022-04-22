@@ -14,8 +14,8 @@ body:
         [user story](https://www.atlassian.com/agile/project-management/user-stories), such as:
 
         > As a user, I want to [feature], so that [use case].
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: acceptance
@@ -23,8 +23,8 @@ body:
       label: Acceptance Criteria
       description: >-
         The conditions that must be met for this ticket to be accepted
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: textarea
     id: solution
@@ -32,8 +32,8 @@ body:
       label: Proposed Solution
       description: >-
         If you have an idea for how this feature could be implemented, please provide that
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: textarea
     id: notes
@@ -41,8 +41,8 @@ body:
       label: Additional Notes
       description: >-
         foo
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: checkboxes
     id: implementation
