@@ -40,7 +40,7 @@ body:
     attributes:
       label: Additional Notes
       description: >-
-        foo
+        Any additional information that you feel may be relevant to this feature request
     validations:
       required: false
 
